@@ -4,7 +4,7 @@
 
 class Base_setting(object):
     DEBUG = True
-    SQLALCHEMY_DATABASE_URI = 'mysql+pymysql://root:root@127.0.0.1:3306/order?charset=utf8'
+    SQLALCHEMY_DATABASE_URI = 'mysql+pymysql://root:root@127.0.0.1:3306/food_db?charset=utf8'
     SQLALCHEMY_TRACK_MODIFICATIONS = False
     SERVER_PORT = 5000
 
