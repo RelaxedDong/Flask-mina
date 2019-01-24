@@ -56,24 +56,33 @@
             </tr>
             </thead>
             <tbody>
-            <tr>
-                <td>1</td>
-                <td>编程浪子2</td>
-                <td>11012031511</td>
-                <td>apanly@163.com</td>
-                <td>
-                    <a href="{{ buildUrl('/account/info') }}">
-                        <i class="fa fa-eye fa-lg"></i>
-                    </a>
-                    <a class="m-l" href="{{ buildUrl('/account/set') }}">
-                        <i class="fa fa-edit fa-lg"></i>
-                    </a>
+            {% if list %}
+                {% for item in list %}
+                     <tr>
+                        <td>{{ item.uid }}</td>
+                        <td>{{ item.nickname }}</td>
+                        <td>{{ item.mobile }}</td>
+                        <td>{{ item.email }}</td>
+                        <td>
+                            <a href="{{ buildUrl('/account/info') }}">
+                                <i class="fa fa-eye fa-lg"></i>
+                            </a>
+                            <a class="m-l" href="{{ buildUrl('/account/set') }}">
+                                <i class="fa fa-edit fa-lg"></i>
+                            </a>
 
-                    <a class="m-l remove" href="javascript:void(0);">
-                        <i class="fa fa-trash fa-lg"></i>
-                    </a>
-                </td>
-            </tr>
+                            <a class="m-l remove" href="javascript:void(0);">
+                                <i class="fa fa-trash fa-lg"></i>
+                            </a>
+                        </td>
+                    </tr>
+                {% endfor %}
+
+
+                {% else %}
+                <tr><td colspan="5">暂无数据~</td></tr>
+            {% endif %}
+
             </tbody>
         </table>
 

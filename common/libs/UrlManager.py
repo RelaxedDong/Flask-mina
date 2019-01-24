@@ -13,3 +13,5 @@ class UrlManager(object):
         ver = "%s"%( 22222222 )
         path =  "/static" + path + "?ver=" + ver
         return UrlManager.buildUrl( path )
+
+
