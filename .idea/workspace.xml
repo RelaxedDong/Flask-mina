@@ -2,31 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ff9047b5-a2f6-435d-9c64-dda06d94c2b0" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/common/libs/helpler.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/common/libs/user/UserService.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/common/libs/user/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/test.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/interceptors/Authinterceptor.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/static/js/user/edit.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/static/js/user/login.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/static/js/user/resetpwd.js" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/common/libs/UrlManager.py" afterPath="$PROJECT_DIR$/common/libs/UrlManager.py" />
-      <change beforePath="$PROJECT_DIR$/config/settings.py" afterPath="$PROJECT_DIR$/config/settings.py" />
-      <change beforePath="$PROJECT_DIR$/web/controlers/account/Account.py" afterPath="$PROJECT_DIR$/web/controlers/account/Account.py" />
-      <change beforePath="$PROJECT_DIR$/web/controlers/finance/Finance.py" afterPath="$PROJECT_DIR$/web/controlers/finance/Finance.py" />
-      <change beforePath="$PROJECT_DIR$/web/controlers/food/Food.py" afterPath="$PROJECT_DIR$/web/controlers/food/Food.py" />
-      <change beforePath="$PROJECT_DIR$/web/controlers/index.py" afterPath="$PROJECT_DIR$/web/controlers/index.py" />
-      <change beforePath="$PROJECT_DIR$/web/controlers/member/Member.py" afterPath="$PROJECT_DIR$/web/controlers/member/Member.py" />
-      <change beforePath="$PROJECT_DIR$/web/controlers/stat/Stat.py" afterPath="$PROJECT_DIR$/web/controlers/stat/Stat.py" />
-      <change beforePath="$PROJECT_DIR$/web/controlers/user/User.py" afterPath="$PROJECT_DIR$/web/controlers/user/User.py" />
-      <change beforePath="$PROJECT_DIR$/web/static/js/common.js" afterPath="$PROJECT_DIR$/web/static/js/common.js" />
-      <change beforePath="$PROJECT_DIR$/web/templates/account/index.html" afterPath="$PROJECT_DIR$/web/templates/account/index.html" />
-      <change beforePath="$PROJECT_DIR$/web/templates/common/layout_main.html" afterPath="$PROJECT_DIR$/web/templates/common/layout_main.html" />
-      <change beforePath="$PROJECT_DIR$/web/templates/user/edit.html" afterPath="$PROJECT_DIR$/web/templates/user/edit.html" />
-      <change beforePath="$PROJECT_DIR$/web/templates/user/login.html" afterPath="$PROJECT_DIR$/web/templates/user/login.html" />
-      <change beforePath="$PROJECT_DIR$/web/templates/user/reset_pwd.html" afterPath="$PROJECT_DIR$/web/templates/user/reset_pwd.html" />
-      <change beforePath="$PROJECT_DIR$/www.py" afterPath="$PROJECT_DIR$/www.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -45,7 +21,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="Account.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Account.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/controlers/account/Account.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="336">
@@ -57,11 +33,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="helpler.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="helpler.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/common/libs/helpler.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="6" column="30" lean-forward="true" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
+            <state relative-caret-position="216">
+              <caret line="9" column="46" lean-forward="true" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
               <folding />
             </state>
           </provider>
@@ -379,6 +355,14 @@
       <option name="presentableId" value="Default" />
       <updated>1548155844856</updated>
     </task>
+    <task id="LOCAL-00001" summary="访问控制，密码 信息修改">
+      <created>1548341301387</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1548341301387</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TodoView">
@@ -392,7 +376,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="137" y="67" width="1484" height="978" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32880434" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
@@ -400,7 +383,7 @@
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3272506" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41104296" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20070922" sideWeight="0.49107143" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20070922" sideWeight="0.49107143" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -443,6 +426,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="访问控制，密码 信息修改" />
+    <option name="LAST_COMMIT_MESSAGE" value="访问控制，密码 信息修改" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -809,6 +796,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/common/libs/helpler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="9" column="46" lean-forward="true" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/web/controlers/account/Account.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
@@ -816,14 +811,6 @@
           <folding>
             <element signature="e#71#98#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/libs/helpler.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="6" column="30" lean-forward="true" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
